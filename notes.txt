@@ -1,0 +1,23 @@
+AWS MysQL
+=========
+dbInstance=promoji
+dbMasterUserName=promojimysql
+dbMasterPassword=promojimysql
+dbName=promojidb
+
+
+
+AWS Instance
+============
+Public IP: 54.191.4.134
+
+
+AWS PostgreSQL
+==============
+dbName=promojidb
+dbUserName=promoji_usr
+dbPassword=pr0m0j1pwd
+
+
+geraldlogor$ ssh -i ~/.ssh/pem/promoji-laravel-forge.pem ubuntu@54.191.4.134
+ubuntu@promoji:~$ mysql -h promoji-mysql.cygyl0hbczyi.us-west-2.rds.amazonaws.com -P 3306 -u promojimysql -p
