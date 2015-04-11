@@ -98,7 +98,3 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-
-
-
-wget -O forge.sh https://forge.laravel.com/servers/29350/vps?forge_token=ZvZbkZ2qoFschdqbK8ctDEQyV5BhmaS2webN42Hl; bash forge.sh
